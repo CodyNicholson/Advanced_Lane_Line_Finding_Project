@@ -243,7 +243,7 @@ The above code can be found in the find_lane_lines() function in the code cell n
 
 I implemented this step in one of the code cells near the bottom of my jupyter notebook. Here is an example of my result on a test image:
 
-![alt text]("output_files/highlighted_lane.jpg")
+![alt text](output_files/highlighted_lane.jpg)
 
 ---
 
