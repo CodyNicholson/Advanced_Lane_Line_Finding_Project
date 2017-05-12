@@ -11,6 +11,10 @@ The goals / steps of this project are the following:
 - Warp the detected lane boundaries back onto the original image.
 - Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
+You can find the code for this project at: https://codynicholson.github.io/Advanced_Lane_Line_Finding_Project/
+
+You can find the video output file for this project at "./output_files/project_video.mp4" or on youtube by following this link: https://youtu.be/RWCxH83OFEI
+
 ---
 
 ### Camera Calibration
