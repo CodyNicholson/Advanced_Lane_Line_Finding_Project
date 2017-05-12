@@ -25,7 +25,7 @@ Then I prepare "object points", which will be the (x, y, z) coordinates of the c
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
-![alt text][output_files/camera_calibration.jpg]
+![alt text][https://github.com/CodyNicholson/Advanced_Lane_Line_Finding_Project/blob/master/output_files/camera_calibration.jpg?raw=true]
 
 ### Pipeline (single images)
 
