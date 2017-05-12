@@ -105,7 +105,7 @@ I verified that my perspective transform was working as expected by drawing the 
 
 Source Points:
 
-![alt text](output_files/source_points.jpg]_
+![alt text](output_files/source_points.jpg)
 
 Destination Points:
 
