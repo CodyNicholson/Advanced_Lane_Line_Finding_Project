@@ -33,7 +33,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
 
-![alt text][output_files/undistort_test_image.jpg]
+![alt text](output_files/undistort_test_image.jpg)
 
 #### 2. Using color transforms, gradients or other methods to create a thresholded binary image
 
@@ -41,7 +41,7 @@ I used a combination of color and gradient thresholds to generate a binary image
 
 ![alt text](output_files/color_binary.jpg)
 
-![alt text][output_files/combined_binary.jpg]
+![alt text](output_files/combined_binary.jpg)
 
 Separating the image into different color channels helps because we want to look at the color channel that defines the lane lines the best. In my program, I use color channel 's'.
 
@@ -105,11 +105,11 @@ I verified that my perspective transform was working as expected by drawing the 
 
 Source Points:
 
-![alt text][output_files/source_points.jpg]
+![alt text](output_files/source_points.jpg]_
 
 Destination Points:
 
-![alt text][output_files/destination_points.jpg]
+![alt text](output_files/destination_points.jpg)
 
 #### 4. Identifying lane-line pixels and fitting their positions with a polynomial
 
@@ -199,7 +199,7 @@ I then slide the windows over the image collecting the indices for each lane lin
     right_fit_x = right_fit[0]*plot_y**2 + right_fit[1]*plot_y + right_fit[2]
 ```
 
-![alt text][output_files/lane_line_histogram.png]
+![alt text](output_files/lane_line_histogram.png)
 
 #### 5. Calculating the radius of curvature of the lane and the position of the vehicle with respect to center
 
@@ -243,7 +243,7 @@ The above code can be found in the find_lane_lines() function in the code cell n
 
 I implemented this step in one of the code cells near the bottom of my jupyter notebook. Here is an example of my result on a test image:
 
-![alt text]["output_files/highlighted_lane.jpg"]
+![alt text]("output_files/highlighted_lane.jpg")
 
 ---
 
