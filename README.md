@@ -25,7 +25,7 @@ Then I prepare "object points", which will be the (x, y, z) coordinates of the c
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
-![alt text][https://github.com/CodyNicholson/Advanced_Lane_Line_Finding_Project/blob/master/output_files/camera_calibration.jpg?raw=true]
+![alt text](output_files/camera_calibration.jpg)
 
 ### Pipeline (single images)
 
@@ -39,7 +39,7 @@ To demonstrate this step, I will describe how I apply the distortion correction 
 
 I used a combination of color and gradient thresholds to generate a binary image that can be found in code cells 15-16 (The binary output images are hard to miss, they look like Christmas lights).  Here's an example of my output for this step.
 
-![alt text][output_files/color_binary.jpg]
+![alt text](output_files/color_binary.jpg)
 
 ![alt text][output_files/combined_binary.jpg]
 
